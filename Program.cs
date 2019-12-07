@@ -8,9 +8,7 @@ namespace Encryption
     {
         static void Main(string[] args)
         {
-
-            //  string baza = "qpalIDvtFH12ygQPALBRM89WwufhosZJ67kxn45OzmrSKXNeidjcbEUVTYG30;,./'[]+-_"; brakuje cyfry
-            string encryptionKey = "qUer45Xufh67woskZ89vyALaMWpxOSK3NEtgQPIDjcbFHVYTGidlzm1nJCBR20;,./'[]+-_";
+             string encryptionKey = "qUer45Xufh67woskZ89vyALaMWpxOSK3NEtgQPIDjcbFHVYTGidlzm1nJCBR20;,./'[]+-_";
 
             string yourString = "Marcin0";
             List<char> lettersOfYourString = new List<char>();
