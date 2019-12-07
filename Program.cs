@@ -1,15 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApp34
+namespace Encryption
 {
     class Program
     {
-        private static object item;
-
         static void Main(string[] args)
         {
 
@@ -22,11 +18,6 @@ namespace ConsoleApp34
             string encrypted = "";
             List<int> positions = new List<int>();
             List<int> positions2 = new List<int>();
-
-
-            Console.WriteLine(yourString);
-
-  
 
             foreach (char element in yourString)
             {
